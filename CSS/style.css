@@ -9,6 +9,7 @@ body{
     font-family: sans-serif;
     color: black;
     background-color: rgb(245, 240, 240);
+
 }
 #profile{
     float: center;
@@ -18,12 +19,23 @@ body{
     text-align: center;
 
 }
+#col1{
+    background-color: ivory;
+    text-align: center;
+    padding:5%;
+}
+#col2{
+    background-color: gray;
+    text-align: center;
+    padding:10%;
+    color:white;
+}
 
-div{
+div #intro{
     display: block;
     position: absolute;
     text-align: center;
-    margin-left: 25%;
+
     margin-top: 5%;
 
 }
@@ -31,6 +43,35 @@ div{
     font-size: 40px;
     color:rgb(250, 169, 169);
 }
+#resource{
+    padding:5%;
+}
+
+
+/*Resource Page*/
+#linkColor{
+    color:rgb(246, 169, 26);
+
+}
+#linkColor2{
+    color:gray;
+
+}
+#linkColor2:hover{
+    color:pink;
+
+}
+
+section{
+    padding:3%;
+    background-color:ivory;
+}
+/*.foo{
+    background-color: gray;
+    margin-top: -1.5%;
+    padding-bottom: 0.5%;
+}*/
+
 /*#FFCC99
 #99CCCC
 #FFCCCC*/
